@@ -1,0 +1,58 @@
+body{
+	background-color: gray;
+}
+.box-lettre	{
+	background-color: white;
+	padding: 30px;
+	width: 40%;
+	height: auto;
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	transform: translate(-50px,-50px);
+	display: flex;
+	flex-wrap: wrap;
+}
+.carreaux {
+	background-color: black;
+	color: white;
+	width: 80px;
+	height: 80px;
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.carreaux.bleu {
+	background-color: blue;
+	color: white;
+	width: 80px;
+	height: 80px;
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.carreaux.orange {
+	background-color: orange;
+	color: white;
+	width: 80px;
+	height: 80px;
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.carreaux.rouge {
+	background-color: red;
+	color: white;
+	width: 80px;
+	height: 80px;
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.paragraphe{
+	font-size: xxx-large;
+}
